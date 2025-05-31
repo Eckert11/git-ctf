@@ -3,7 +3,7 @@ const txt = document.querySelector('#text-flag');
 
 const actionBtn = ()=>{
     //Flag para ganar un punto en el parcial
-    txt.innerHTML = 'Aquí no hay flag'
+    alert('¿Qué andas buscando?');
 }
 
 btn.addEventListener('click' , actionBtn);
